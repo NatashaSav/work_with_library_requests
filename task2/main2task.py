@@ -26,6 +26,6 @@ class YaUploader:
 
 if __name__ == '__main__':
     file_path = "/Users/dmitro/Documents/netology/text.txt"
-    token = "AQAAAABbyXwMAADLW-f6Hy5R802fuHez8MR67NM"
+    token = ""
     uploader = YaUploader(token)
     uploader.upload(file_path)
